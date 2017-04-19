@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.TvGratis 5.1"
        name="TvGratis 5.1"
        version="5.1"
@@ -16,7 +15,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
@@ -30,21 +29,3 @@
     <platform>all</platform>
   </extension>
 </addon>
-
-    <addon id="repository.highside" name="High Side Repo" version="0.0.1" provider-name="CriviR6">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="High Side Repo">
-            <info compressed="false">https://raw.githubusercontent.com/CriviR6/HighSide/master/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/CriviR6/HighSide/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/CriviR6/HighSide/master/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>HighSide official Repo</summary>
-            <description>Addons y repos variados.</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-</addons>
