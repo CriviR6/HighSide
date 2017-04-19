@@ -1,0 +1,4 @@
+﻿
+
+Versión 5.0
+Primera version del plugin. 
