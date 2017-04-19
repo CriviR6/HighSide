@@ -1,1 +1,0 @@
-Official Plex addon for Kodi
